@@ -1,0 +1,36 @@
+.box {
+    background-color: #F6F6F6;
+    border: 1px solid #CCC;
+    padding: 0 25px;
+    padding-bottom: 25px; 
+    position: relative;
+    width: 298px;
+    font-family: serif;
+    margin: 20px;
+}
+
+.box:before {
+    border: 20px solid #CCC;
+    border-bottom-color: #FFF;
+    border-right-color: #FFF;
+    bottom: -1px;
+    content: "";
+    position: absolute;
+    right: -1px;
+}
+
+.h1 {
+    border-bottom: 1px solid rgb(145, 133, 133);
+    text-align: center;
+}
+
+.hmar {
+    margin: 5px;
+    margin-left: 0;
+    color: #333;
+}
+
+.pmar {
+    margin: 0;
+    color: #333;
+}

@@ -1,0 +1,39 @@
+.full {
+    background-color: #EDC;
+    /* width: 100%; */
+    min-height: 100vh;
+    /* background-size: auto; */
+    padding: 20px;
+    margin: -10px;
+}
+
+.head {
+    color: white;
+    background-color: #753;
+    box-shadow: 0 0 10px #333 inset;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    font-family: serif;
+}
+
+.main {
+    background-color: white;
+    width: 420px;
+    padding:15px 0;
+    font-family: serif;
+}
+
+.main>h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.main>ul {
+    list-style: none;
+}
+
+.main>ul>li {
+    text-align: center;
+    margin-left: -20px;
+}

@@ -1,0 +1,19 @@
+.ul {
+    display: flex;
+}
+
+.ul>li {
+    list-style: none;
+    border: 1px solid #333;
+    padding: 10px;
+    width: 80px;
+    /* text-decoration: none; */
+    background-color: #cc3333;
+    text-align: center;
+    line-height: 48px;
+}
+
+.ul>li>a {
+    text-decoration: none;
+    line-height: center;
+}
