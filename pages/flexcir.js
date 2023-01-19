@@ -4,7 +4,7 @@ const Menu5 = () => {
     return (
         <>
             <ul className={styles.pop_btn}>
-                <li>
+                {/* <li>
                     <h2><a href="#">Home</a></h2>
                 </li>
                 <li>
@@ -15,7 +15,8 @@ const Menu5 = () => {
                 </li>
                 <li>
                     <h2><a href="#">Link</a></h2>
-                </li>
+                </li> */}
+                
             </ul>
         </>
     )

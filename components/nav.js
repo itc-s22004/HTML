@@ -9,7 +9,8 @@ const Nav = () => {
             <li><Link href="/cafe">カフェ</Link></li>
             <li><Link href="/flexbox">flex box</Link></li>
             <li><Link href="/flexcir">flex 丸</Link></li>
-            {/* <li><Link href="/layout3">LAYOUT3</Link></li> */}
+            {/* <li><Link href="/jsx_refe">jsx</Link></li> */}
+            <li><Link href="/pc">pc</Link></li> 
         </ul>
     )
 }
