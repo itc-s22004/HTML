@@ -8,7 +8,7 @@
     padding: 10px;
     width: 80px;
     /* text-decoration: none; */
-    background-color: #cc3333;
+    background-color: #871515;
     text-align: center;
     line-height: 48px;
 }
@@ -16,4 +16,5 @@
 .ul>li>a {
     text-decoration: none;
     line-height: center;
+    color: white;
 }

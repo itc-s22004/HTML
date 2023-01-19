@@ -1,4 +1,4 @@
-import styles from "styles/menu4.module.css"
+import styles from "styles/flexbox.module.css"
 
 const Menu4 = () => {
     return (

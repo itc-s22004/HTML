@@ -1,4 +1,4 @@
-import styles from "styles/layout6.module.css"
+import styles from "styles/paral.module.css"
 
 const Layout6 = () => {
     return (

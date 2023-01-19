@@ -1,4 +1,4 @@
-import styles from 'styles/menu5.module.css'
+import styles from 'styles/flexcir.module.css'
 
 const Menu5 = () => {
     return (

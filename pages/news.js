@@ -1,4 +1,4 @@
-import styles from "../styles/layout2.module.css"
+import styles from "styles/news.module.css"
 
 const Layout2 = () => {
     return (

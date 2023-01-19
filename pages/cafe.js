@@ -1,4 +1,4 @@
-import styles from 'styles/menu1.module.css'
+import styles from 'styles/cafe.module.css'
 
 const Menu1 = () => {
     return (
