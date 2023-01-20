@@ -1,16 +1,19 @@
 import styles from "styles/news.module.css"
+import Content from 'components/content'
 
 const Layout2 = () => {
     return (
         <div className={styles.box}>
             <h1 className={styles.h1}>Prep Times</h1>
-            {/* <div className={styles.p}> */}
-                <h2 className={styles.hmar}>Headline</h2>
-                <h3 className={styles.hmar}>Article 1</h3>
-                <p className={styles.pmar}>sentence comes here sentence comes here sentence comes here sentence comes here</p>
-                <h3 className={styles.hmar}>Article 2</h3>
-                <p className={styles.pmar}>sentence comes here sentence comes here sentence comes here sentence comes here</p>
-            {/* </div> */}
+            <h2 className={styles.hmar}>HeadLine</h2>
+            <Content
+                title="Article1"
+                comment="sentence comes here sentence comes here sentence comes here sentence comes here"
+            />
+            <Content
+                title="Article2"
+                comment="sentence comes here sentence comes here sentence comes here sentence comes here"
+            />
         </div>
     )
 }

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from 'styles/flexcir.module.css'
 
 const Menu5 = () => {
@@ -5,18 +6,17 @@ const Menu5 = () => {
         <>
             <ul className={styles.pop_btn}>
                 <li>
-                    <h2><a href="#">Home</a></h2>
+                    <h2><Link href="#">Home</Link></h2>
                 </li>
                 <li>
-                    <h2><a href="#">About</a></h2>
+                    <h2><Link href="#">About</Link></h2>
                 </li>
                 <li>
-                    <h2><a href="#">Topics</a></h2>
+                    <h2><Link href="#">Topics</Link></h2>
                 </li>
                 <li>
-                    <h2><a href="#">Link</a></h2>
+                    <h2><Link href="#">Link</Link></h2>
                 </li>
-
             </ul>
         </>
     )
